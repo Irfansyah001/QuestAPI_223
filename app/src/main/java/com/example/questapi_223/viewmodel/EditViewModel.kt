@@ -15,4 +15,10 @@ import com.example.questapi_223.uicontroller.route.DestinasiDetail
 import kotlinx.coroutines.launch
 import retrofit2.Response
 
+class EditViewModel(savedStateHandle: SavedStateHandle, private val repositoryDataSiswa:
+RepositoryDataSiswa
+): ViewModel() {
+    var uiStateSiswa by mutableStateOf(UIStateSiswa())
+        private set
+
 
