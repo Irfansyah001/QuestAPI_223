@@ -11,8 +11,7 @@ import com.example.questapi_223.repositori.RepositoryDataSiswa
 import retrofit2.Response
 
 
-class EntryViewModel(private val repositoryDataSiswa: RepositoryDataSiswa):
-        ViewModel() {
+class EntryViewModel(private val repositoryDataSiswa: RepositoryDataSiswa): ViewModel() {
     var uiStateSiswa by mutableStateOf(UIStateSiswa())
         private set
 
